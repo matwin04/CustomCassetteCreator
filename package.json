@@ -1,0 +1,21 @@
+{
+  "name": "cassettecreator",
+  "version": "1.0.0",
+  "description": "Deploy your [FastHTML](https://fastht.ml/) project to Vercel with zero configuration.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matwin04/CassetteCreator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matwin04/CassetteCreator/issues"
+  },
+  "homepage": "https://github.com/matwin04/CassetteCreator#readme"
+}

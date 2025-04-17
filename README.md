@@ -1,5 +1,40 @@
-# Vue 3 + Vite
+# FastHTML Boilerplate
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Deploy your [FastHTML](https://fastht.ml/) project to Vercel with zero configuration.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/fasthtml&template=fasthtml)
+
+_Live Example: https://fasthtml-template.vercel.app_
+
+Visit the [FastHTML documentation](https://docs.fastht.ml/) to learn more.
+
+## Getting Started
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running Locally
+
+Start the development server on http://0.0.0.0:5001
+
+```bash
+python main.py
+```
+
+When you make changes to your project, the server will automatically reload.
+
+## Deploying to Vercel
+
+Deploy your project to Vercel with the following command:
+
+```bash
+npm install -g vercel
+vercel --prod
+```
+
+Or `git push` to your repostory with our [git integration](https://vercel.com/docs/deployments/git).
+
+To view the source code for this template, [visit the example repository](https://github.com/vercel/vercel/tree/main/examples/fasthtml).
