@@ -1,13 +1,10 @@
-import postgres from "postgres";
 import express from "express";
 import path from "path";
-import dotenv from "dotenv";
 import { engine } from "express-handlebars";
 import { fileURLToPath } from "url";
 
-dotenv.config();
-console.log("🧪 Loaded DB URL:", process.env.DATABASE_URL);
-const sql = postgres(process.env.DATABASE_URL, { ssl: "require" });
+
+
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

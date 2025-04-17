@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/matwin04/CassetteCreator/issues"
   },
-  "homepage": "https://github.com/matwin04/CassetteCreator#readme"
+  "homepage": "https://github.com/matwin04/CassetteCreator#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2",
+    "path": "^0.12.7"
+  }
 }
